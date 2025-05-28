@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>그냥 속았지?</title>
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+        .container {
+            margin-top: 30px;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            display: inline-block;
+        }
+        button {
+            background-color: #ff6384;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        button:hover {
+            background-color: #ff4d6d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>그냥 속았지?</h1>
+        <button onclick="showMessage()">후원하기 (장난임)</button>
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("감사합니다! 이 돈으로 컵라면이랑 맥주... 아, 아니... 사무소 운영비로 쓸게요(?)\n\n(사실 아무 일도 안 일어납니다. 그냥 눌러본 거죠?)");
+        }
+    </script>
+</body>
+</html>
